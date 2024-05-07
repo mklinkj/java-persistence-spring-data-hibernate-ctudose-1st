@@ -10,7 +10,7 @@
             <property name="hibernate.ogm.datastore.provider" value="mongodb"/>
             <property name="hibernate.ogm.datastore.database" value="hibernate_ogm"/>
             <property name="hibernate.ogm.datastore.create_database" value="true"/>
-            <property name="hibernate.ogm.datastore.host" value="localhost:27017"/>
+            <property name="hibernate.ogm.datastore.host" value="docker-mongodb-5-host:27017"/>
         </properties>
     </persistence-unit>
     <!-- Neo4j configuration -->

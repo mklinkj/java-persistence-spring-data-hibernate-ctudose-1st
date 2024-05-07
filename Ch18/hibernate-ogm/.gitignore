@@ -1,0 +1,4 @@
+.idea
+target
+
+# test시 vm옵션 추가 설정 유지를 위해 워크 스페이스 단위.vscode는 유지

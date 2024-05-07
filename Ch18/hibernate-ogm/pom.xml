@@ -10,6 +10,10 @@
     <name>hibernate-ogm</name>
     <url>http://maven.apache.org</url>
 
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
     <build>
         <plugins>
             <plugin>
@@ -27,6 +31,9 @@
                     <includes>
                         <include>**/*.java</include>
                     </includes>
+                    <argLine>
+                        --add-opens java.base/java.lang=ALL-UNNAMED
+                    </argLine>
                 </configuration>
             </plugin>
         </plugins>

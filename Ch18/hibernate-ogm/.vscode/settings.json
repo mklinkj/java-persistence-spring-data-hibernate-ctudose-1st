@@ -1,0 +1,11 @@
+{
+  // https://github.com/Microsoft/vscode-java-test/wiki/Run-with-Configuration
+  "java.test.config": [
+    {
+      "name": "with --add-opens",
+      "vmargs": [
+        "--add-opens=java.base/java.lang=ALL-UNNAMED"
+      ],
+    }
+  ]
+}
